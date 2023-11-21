@@ -1,0 +1,2 @@
+ ogr2ogr -f 'PostgreSQL' PG:'dbname=Malla_Vial host=localhost port=5432 user= password=' 'Malla_Vial_Integral_Bogota_D_C.geojson' -lco FID=gid -lco GEOMETRY_NAME=geom 
+
